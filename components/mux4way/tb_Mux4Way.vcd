@@ -1,0 +1,317 @@
+$date
+	Tue Sep 05 16:21:58 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_Mux4Way $end
+$var wire 1 ! out $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ c $end
+$var reg 1 % d $end
+$var reg 2 & sel [1:0] $end
+$scope module mymodule $end
+$var wire 1 " in0 $end
+$var wire 1 # in1 $end
+$var wire 1 $ in2 $end
+$var wire 1 % in3 $end
+$var wire 2 ' sel [1:0] $end
+$var wire 1 ! out $end
+$var wire 1 ( mux23 $end
+$var wire 1 ) mux01 $end
+$scope module mux_module0 $end
+$var wire 1 " a $end
+$var wire 1 * a1 $end
+$var wire 1 # b $end
+$var wire 1 + b1 $end
+$var wire 1 , not_sel $end
+$var wire 1 ) out $end
+$var wire 1 - sel $end
+$upscope $end
+$scope module mux_module1 $end
+$var wire 1 $ a $end
+$var wire 1 . a1 $end
+$var wire 1 % b $end
+$var wire 1 / b1 $end
+$var wire 1 0 not_sel $end
+$var wire 1 ( out $end
+$var wire 1 1 sel $end
+$upscope $end
+$scope module mux_moduleOut $end
+$var wire 1 ) a $end
+$var wire 1 2 a1 $end
+$var wire 1 ( b $end
+$var wire 1 3 b1 $end
+$var wire 1 4 not_sel $end
+$var wire 1 ! out $end
+$var wire 1 5 sel $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+05
+14
+03
+02
+01
+10
+0/
+0.
+0-
+1,
+0+
+0*
+0)
+0(
+b0 '
+b0 &
+0%
+0$
+0#
+0"
+0!
+$end
+#2
+1%
+#4
+1(
+0,
+00
+1/
+1-
+11
+b1 &
+b1 '
+#5
+0(
+0!
+1,
+10
+0/
+04
+03
+0-
+01
+15
+b10 &
+b10 '
+#6
+14
+1(
+05
+1.
+b0 &
+b0 '
+0%
+1$
+#7
+0(
+0.
+0,
+00
+1-
+11
+b1 &
+b1 '
+#8
+04
+15
+b11 &
+b11 '
+#9
+0!
+02
+1,
+10
+14
+0(
+0)
+0-
+01
+05
+0/
+0+
+b0 &
+b0 '
+1%
+0$
+1#
+#12
+1!
+04
+13
+1(
+15
+1.
+b10 &
+b10 '
+0%
+1$
+#13
+0!
+03
+0(
+1)
+0.
+0,
+1+
+00
+1-
+11
+b11 &
+b11 '
+#14
+14
+0)
+05
+0+
+b1 &
+b1 '
+0$
+0#
+1"
+#17
+1)
+1*
+1,
+10
+04
+0-
+01
+15
+b10 &
+b10 '
+#18
+0)
+0!
+0*
+1(
+02
+0,
+00
+1/
+14
+1-
+11
+05
+b1 &
+b1 '
+1%
+#19
+1)
+1*
+0(
+0!
+1,
+10
+0/
+04
+03
+0-
+01
+15
+b10 &
+b10 '
+#20
+1!
+0)
+13
+0*
+1(
+0,
+00
+1/
+1-
+11
+b11 &
+b11 '
+#21
+12
+1)
+1*
+1.
+1!
+1,
+10
+14
+03
+1(
+0-
+01
+05
+0/
+b0 &
+b0 '
+0%
+1$
+#22
+02
+04
+13
+15
+b10 &
+b10 '
+#23
+0!
+03
+0(
+0.
+0$
+1#
+#25
+1!
+0*
+12
+0,
+1+
+00
+1/
+14
+1(
+1-
+11
+05
+0.
+b1 &
+b1 '
+1%
+1$
+#26
+1!
+1*
+1)
+1.
+1(
+02
+1,
+0+
+10
+0/
+04
+13
+0-
+01
+15
+b10 &
+b10 '
+#29
+0*
+0.
+0,
+1+
+00
+1/
+1-
+11
+b11 &
+b11 '
+#30
