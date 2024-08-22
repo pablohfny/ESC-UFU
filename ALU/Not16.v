@@ -1,9 +1,9 @@
-/* módulo Not16 */
+/* módulo not16 */
 
-`ifndef _Not16_
-`define _Not16_
+`ifndef _not16_
+`define _not16_
 
-module Not16(out, in);
+module not16(out, in);
     input [15:0] in;
     output [15:0] out;
 

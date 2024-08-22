@@ -1,18 +1,18 @@
 /* módulo FullAdder */
 
-`include "HalfAdder.v"
+`include "halfadder.v"
 
-`ifndef _FullAdder_
-`define _FullAdder_
+`ifndef _fulladder_
+`define _fulladder_
 
-module FullAdder(s, cout, a, b, cin);
+module fulladder(s, cout, a, b, cin);
     input a, b, cin;
     output s, cout;
 
     wire s1, c1, c2;
 
-    HalfAdder ha1(s1, c1, a, b);
-    HalfAdder ha2(s, c2, s1, cin);
+    halfadder ha1(s1, c1, a, b);
+    halfadder ha2(s, c2, s1, cin);
     or(cout, c1, c2);
 
 endmodule

@@ -1,9 +1,9 @@
-/* módulo Mux16 */
+/* módulo mux16 */
 
-`ifndef _Mux16_
-`define _Mux16_
+`ifndef _mux16_
+`define _mux16_
 
-module Mux16(out, a, b, sel);
+module mux16(out, a, b, sel);
     input sel;
     input [15:0] a, b;
 

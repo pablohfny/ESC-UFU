@@ -1,9 +1,9 @@
-/* módulo And16 */
+/* módulo and16 */
 
-`ifndef _And16_
-`define _And16_
+`ifndef _and16_
+`define _and16_
 
-module And16(out, in1, in2);
+module and16(out, in1, in2);
     input [15:0] in1, in2;
     output [15:0] out;
 

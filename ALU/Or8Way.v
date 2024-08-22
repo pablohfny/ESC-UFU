@@ -1,9 +1,9 @@
-/* módulo Or8Way */
+/* módulo or8way */
 
-`ifndef _Or8Way_
-`define _Or8Way_
+`ifndef _or8way_
+`define _or8way_
 
-module Or8Way(out, in0, in1, in2, in3, in4, in5, in6, in7);
+module or8way(out, in0, in1, in2, in3, in4, in5, in6, in7);
     input in0, in1, in2, in3, in4, in5, in6, in7;
     wire or0, or1, or2, or3, or12, or34;
     output out;

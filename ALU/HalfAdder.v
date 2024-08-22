@@ -1,9 +1,9 @@
 /* módulo HalfAdder */
 
-`ifndef _HalfAdder_
-`define _HalfAdder_
+`ifndef _halfadder_
+`define _halfadder_
 
-module HalfAdder(s, c, a, b);
+module halfadder(s, c, a, b);
     input a, b;
     output s, c;
 

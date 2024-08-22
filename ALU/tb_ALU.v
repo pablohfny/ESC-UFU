@@ -4,7 +4,7 @@
 /* input zx, nx, zy, ny, f, no; */
 /* output [15:0] out; output zr, ng; */
 
-`include "ALU.v"
+`include "alu.v"
 
 `define assert(signal, value) \
     if (signal !== value) \
@@ -15,18 +15,18 @@
         $display("Success! %m: signal = %0d", value); \
     end
 
-module tb_ALU;
+module tb_alu;
     reg [15:0] x, y;
     reg zx, nx, zy, ny, f, no;
     wire [15:0] out;
     wire zr, ng;
 
-    ALU alu0(out, zr, ng, x, y, zx, nx, zy, ny, f, no);
+    alu alu0(out, zr, ng, x, y, zx, nx, zy, ny, f, no);
 
     initial
     begin
-        $dumpfile("tb_ALU.vcd");
-        $dumpvars(0, tb_ALU);
+        $dumpfile("tb_alu.vcd");
+        $dumpvars(0, tb_alu);
 
         x = 16'h1248; y = 16'h137F; zx = 1; nx = 0; zy = 1; ny = 0; f = 1; no = 0; #1; // 0
         `assert(out, 16'h0) `assert(zr, 1'b1) `assert(ng, 1'b0)
