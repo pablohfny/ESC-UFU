@@ -1,3 +1,4 @@
+/* 11411ECP001 - Pablo Nunes */
 /* módulo HalfAdder */
 
 `ifndef _halfadder_

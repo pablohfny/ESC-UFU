@@ -1,3 +1,4 @@
+/* 11411ECP001 - Pablo Nunes */
 /* testbench para alu */
 /* ordem de portas: out, zr, ng, x, y, zx, nx, zy, ny, f, no */
 /* input [15:0] x; input [15:0] y; */

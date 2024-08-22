@@ -1,3 +1,6 @@
+/* 11411ECP001 - Pablo Nunes */
+/* módulo ALU */
+
 `include "add16.v"
 `include "mux16.v"
 `include "not16.v"
