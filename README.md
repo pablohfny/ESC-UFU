@@ -10,6 +10,7 @@ New-Alias -Name "gtkwave" C:\iverilog\gtkwave\bin\gtkwave.exe;
 Para utilizadores de Mac:
 
 brew install icarus-verilog
+GTK wave does not run on newer versions of mac, the community has solved this issue in personal brews - https://github.com/gtkwave/gtkwave/issues/250
 
 # Comandos
 
